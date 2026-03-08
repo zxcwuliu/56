@@ -1,0 +1,30 @@
+
+/* topbar */
+
+.bymob-topbar {
+	float: left;
+	display: block;
+	width: 100%;
+	background-color: /*#EE0000*/
+	#F5F5F5;
+}
+
+.bymob-topbar ul li {
+	float: left;
+}
+
+.bymob-topbar ul li a {
+	display: inline-block;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	font-size: 1.2rem;
+	line-height: 2.8rem;
+	letter-spacing: 0.1rem;
+	color: /*#FFF*/
+	#282828;
+	text-align: center;
+}
+
+.bymob-topbar ul li:not(:last-of-type) a {
+	margin-right: 0.5rem;
+}

@@ -1,0 +1,1438 @@
+body {
+	margin: 0 auto;
+	max-width: 640px;
+	background-color: #F1F8FF;
+}
+
+ol,
+ol li,
+ul,
+ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a:link,
+a:visited {
+	color: currentcolor;
+}
+
+a:hover {
+	color: #0358AD;
+}
+
+
+/* topbar */
+
+.bymob-m1-topbar {
+	float: left;
+	display: block;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+.bymob-m1-topbar ul li {
+	float: left;
+}
+
+.bymob-m1-topbar ul li a {
+	display: inline-block;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	font-size: 1.2rem;
+	line-height: 2.8rem;
+	letter-spacing: 0.1rem;
+	color: #282828;
+	text-align: center;
+}
+
+.bymob-m1-topbar ul li:not(:last-of-type) a {
+	margin-right: 0.5rem;
+}
+
+
+/* head */
+
+.bymob-m1-head {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-head .top-compay-font {
+	float: left;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	width: 100%;
+	min-height: 12rem;
+}
+
+.bymob-m1-head .top-compay-font h1,
+.bymob-m1-head .top-compay-font b {
+	float: left;
+	display: block;
+	margin: 0;
+	padding-left: 1.2rem;
+	padding-right: 0.8rem;
+	width: 100%;
+	max-height: 6.8rem;
+	font-size: 2.8rem;
+	font-weight: 700;
+	line-height: 3.4rem;
+	color: #444;
+	text-shadow: 0.05rem 0.05rem 0 #f0f0f0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+
+.bymob-m1-head .top-compay-font span {
+	float: left;
+	/*display: block;*/
+	display: none;
+	margin-top: 0.5rem;
+	padding-left: 1.2rem;
+	padding-right: 0.8rem;
+	width: 100%;
+	max-height: 4rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #444;
+	text-shadow: .05rem .05rem .05rem #FFF;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+}
+
+.bymob-m1-head ul {
+	float: left;
+	display: block;
+	width: 100%;
+	background-color: #413686;
+	text-align: center;
+}
+
+.bymob-m1-head ul li {
+	float: left;
+	display: inline-block;
+	width: 16.66%;
+}
+
+.bymob-m1-head ul li a {
+	font-size: 1.6rem;
+	font-weight: 100;
+	line-height: 3rem;
+	letter-spacing: 0.1rem;
+	color: #FFF;
+}
+
+.bymob-m1-head ul li.active,
+.bymob-m1-head ul li:hover {
+	color: #FFF;
+	background-color: #0358AD;
+}
+
+
+/* banner */
+
+.bymob-m1-banner {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+
+/* address */
+
+.bymob-m1-address {
+	float: left;
+	display: block;
+	padding: 1rem 3%;
+	width: 100%;
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: #444;
+}
+
+.bymob-m1-address a {
+	color: #0358AD;
+}
+
+
+/* tag */
+
+.bymob-m1-tag {
+	float: left;
+	display: block;
+	margin-top: 1rem;
+	width: 100%;
+	text-align: center;
+	background-color: #413686;
+}
+
+.bymob-m1-tag h2 {
+	float: none;
+	display: inline-block;
+	margin: 0;
+	height: 3rem;
+	font-size: 1.6rem;
+	font-weight: 100;
+	line-height: 3rem;
+	letter-spacing: 0.15rem;
+	text-align: center;
+	color: #FFF;
+}
+
+
+/* infolist */
+
+.bymob-m1-infolist {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-infolist ol {
+	float: left;
+	padding: 3% 3% 0 3%;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-infolist ol li {
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	width: 48.5%;
+	background-color: #FFF;
+	-webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+	overflow: hidden;
+}
+
+.bymob-m1-infolist ol li:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+.bymob-m1-infolist ol li .infolist-img {
+	float: left;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 66.66%;
+	overflow: hidden;
+}
+
+.bymob-m1-infolist ol li .infolist-img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.bymob-m1-infolist ol li .infolist-detail {
+	float: left;
+	display: block;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.bymob-m1-infolist ol li .infolist-detail .infolist-title {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-infolist ol li .infolist-detail .infolist-title a {
+	display: block;
+	width: 100%;
+	height: 6rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 2rem;
+	color: #444;
+	white-space: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bymob-m1-infolist ol li .infolist-detail .infolist-title a:hover {
+	color: #0358AD;
+}
+
+.bymob-m1-infolist ol li .infolist-price {
+	float: left;
+	display: block;
+	margin-top: 0.5rem;
+	width: 100%;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	letter-spacing: 0.05rem;
+	color: #999;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border: none;
+}
+
+
+/* catalist */
+
+.bymob-m1-catalist {
+	float: left;
+	display: block;
+	padding: 3%;
+	width: 100%;
+}
+
+.bymob-m1-catalist .catalist-list {
+	float: left;
+	display: block;
+	padding: 0 1rem 0.8rem 1rem;
+	width: 100%;
+	background-color: #FFF;
+	-webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+}
+
+.catalist-nobox {
+	padding-top: 1.5%;
+	background-color: #FFF;
+}
+
+.catalist-nobox .catalist-list {
+	padding: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+
+/* company */
+
+.bymob-m1-company {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-company .company-title {
+	float: left;
+	display: block;
+	padding: 2% 3%;
+	width: 100%;
+	line-height: 2.8rem;
+	letter-spacing: 0.1rem;
+}
+
+.bymob-m1-company .company-title h3 {
+	float: left;
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	font-size: 2.2rem;
+	font-weight: 700;
+}
+
+.bymob-m1-company .company-title span {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #666;
+}
+
+.bymob-m1-company .company-introduce {
+	float: left;
+	display: block;
+	padding: 2% 3%;
+	width: 100%;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	text-align: justify;
+}
+
+.bymob-m1-company .company-introduce p {
+	text-indent: 2.8rem;
+}
+
+.bymob-m1-company .shop-company-img,
+.bymob-m1-company .company-photo {
+	float: left;
+	display: block;
+	padding: 0 3%;
+	width: 100%;
+	text-align: center;
+}
+
+.bymob-m1-company .shop-company-img img,
+.bymob-m1-company .company-photo img {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 420px;
+}
+
+
+/* newslist */
+
+.bymob-m1-newslist {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-newslist ol {
+	float: left;
+	display: block;
+	padding: 3%;
+	width: 100%;
+}
+
+.bymob-m1-newslist ol li {
+	float: left;
+	display: block;
+	padding: 1rem;
+	width: 100%;
+	background-color: #FFF;
+	-webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+}
+
+.bymob-m1-newslist ol li:not(:first-of-type) {
+	margin-top: 3%;
+}
+
+.bymob-m1-newslist ol li .newslist-detail {
+	float: left;
+	padding-right: 2%;
+	width: 68%;
+}
+
+.bymob-m1-newslist ol li .newslist-detail .title {
+	float: left;
+	display: block;
+	width: 100%;
+	height: 6.7rem;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+	letter-spacing: 0.05rem;
+	white-space: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bymob-m1-newslist ol li .newslist-detail span {
+	float: left;
+	display: block;
+	padding-top: 1rem;
+	width: 100%;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	color: #AAA;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bymob-m1-newslist ol li .newslist-detail span a {
+	margin-right: 0.5rem;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	color: #666;
+}
+
+.bymob-m1-newslist ol li .newslist-img {
+	float: right;
+	width: 32%;
+	position: relative;
+	height: 0;
+	padding-bottom: 21.5%;
+	overflow: hidden;
+}
+
+.bymob-m1-newslist ol li .newslist-img img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* newslist-nobox */
+
+.newslist-nobox ol {
+	padding: 0;
+}
+
+.newslist-nobox ol li {
+	padding: 3%;
+	box-shadow: none !important;
+}
+
+.newslist-nobox ol li:not(:first-of-type) {
+	margin: 0;
+	border-top: 0.1rem dashed #F0F0F0;
+}
+
+
+/* payment */
+
+.bymob-m1-payment {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-payment .main-left,
+.bymob-m1-payment .main-right {
+	float: left;
+	display: block;
+	width: 100%;
+	background-color: #FFF;
+}
+
+@media only screen and (max-width: 640px) {
+	.bymob-m1-payment .main-right {
+		margin-top: 3%;
+	}
+}
+
+.bymob-m1-payment .bymob-m1-payment-title {
+	float: left;
+	display: block;
+	width: 100%;
+	font-weight: 700;
+	line-height: 5rem;
+}
+
+.bymob-m1-payment .bymob-m1-payment-list {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-payment .bymob-m1-payment-list ul li {
+	float: left;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+
+.bymob-m1-payment .bymob-m1-payment-list ul li:not(:last-of-type) {
+	border-bottom: 0.1rem dashed #F0F0F0;
+}
+
+.bymob-m1-payment .bymob-m1-payment-list ul li .bank span {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	letter-spacing: 0.05rem;
+	color: #444;
+}
+
+.bymob-m1-payment .bymob-m1-payment-list ul li .bank span:first-of-type {
+	font-weight: 700;
+}
+
+.bymob-m1-payment .bymob-m1-payment-list ul li .bank span font {
+	padding-right: 0.5rem;
+	/*font-family: simsun;*/
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 2.8rem;
+	color: #999;
+}
+
+.bymob-m1-payment .online ul li {
+	float: left;
+	display: -webkit-box;
+	/* Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box;
+	/* Firefox (buggy) */
+	display: -ms-flexbox;
+	/* IE 10 */
+	display: -webkit-flex;
+	/* Chrome 21+ */
+	display: flex;
+	/* Opera 12.1, Firefox 22+ */
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+}
+
+.bymob-m1-payment .online ul li .photo,
+.bymob-m1-payment .online ul li .bank {
+	float: left;
+	display: inline-block;
+}
+
+.bymob-m1-payment .online ul li .photo {
+	width: 40%;
+}
+
+.bymob-m1-payment .online ul li .photo img {
+	width: 100%;
+	max-width: 18rem;
+	text-align: center;
+}
+
+.bymob-m1-payment .online ul li .bank {
+	padding-left: 1rem;
+	width: 60%;
+}
+
+.bymob-m1-payment .offline ul li .photo,
+.bymob-m1-payment .offline ul li .bank {
+	float: left;
+	display: block;
+	padding: 1rem 0;
+	width: 100%;
+}
+
+.bymob-m1-payment .online ul li .photo img {
+	width: 100%;
+	max-width: 18rem;
+}
+
+.bymob-m1-payment .offline ul li .bank {
+	float: left;
+	display: block;
+	padding-left: 1rem;
+	width: 100%;
+}
+
+
+/* contact */
+
+.bymob-m1-contact {
+	float: left;
+	display: block;
+	padding: 2% 3%;
+	width: 100%;
+}
+
+.bymob-m1-contact .name,
+.bymob-m1-sitelink .name {
+	font-weight: 700;
+	line-height: 5rem;
+}
+
+.bymob-m1-contact ul li {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	letter-spacing: 0.1rem;
+	color: #666;
+}
+
+.bymob-m1-contact ul li span {
+	float: left;
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+}
+
+.bymob-m1-contact ul li font {
+	float: right;
+	display: inline-block;
+	width: 84%;
+	font-size: 1.6rem;
+	color: #444;
+}
+
+.bymob-m1-contact ul li img {
+	margin-left: 0.2rem;
+}
+
+.bymob-m1-contact ul li.wechat img {
+	/*display: block;*/
+	/*margin: 1.5rem 0;*/
+	margin: 0.6rem 0;
+	width: 90%;
+	max-width: 12rem;
+}
+
+.bymob-m1-contact ul li.price {
+	line-height: 5rem;
+}
+
+.bymob-m1-contact ul li.price strong {
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #FF4040;
+}
+
+.bymob-m1-contact ul li.call a {
+	float: left;
+	display: block;
+	width: 100%;
+	color: #0358AD;
+}
+
+.bymob-m1-contact ul li.view {
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 4rem;
+	letter-spacing: 0.05rem;
+	color: #AAA;
+}
+
+
+/* sitelink */
+
+.bymob-m1-sitelink {
+	float: left;
+	display: block;
+	margin-bottom: 6%;
+	padding: 2% 3%;
+	width: 100%;
+}
+
+.bymob-m1-sitelink ul li {
+	float: left;
+	display: inline;
+	padding-right: 3rem;
+	min-width: 20%;
+}
+
+.bymob-m1-sitelink ul li a {
+	float: left;
+	display: inline-block;
+	height: 3.5rem;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
+	text-decoration: none;
+}
+
+
+/* main */
+
+.bymob-m1-main {
+	float: left;
+	display: block;
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 100%;
+}
+
+.bymob-m1-main .main-left {
+	float: left;
+	display: block;
+	padding: 0;
+	margin-bottom: 2%;
+	background-color: #FFF;
+	border: 0.1rem solid #CCC;
+}
+
+.bymob-m1-main .main-left .title {
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 3rem;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	color: #282828;
+	background-color: #F5F5F5;
+	-webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+}
+
+.bymob-m1-main .main-left .am-accordion-basic .am-active .am-accordion-title {
+	color: #0358AD;
+}
+
+.bymob-m1-main .main-left-nobox {
+	border: none;
+	background-color: transparent;
+}
+
+.bymob-m1-main .main-right {
+	float: left;
+	display: block;
+	padding: 0;
+}
+
+@media only screen and (min-width: 640px) {
+	.bymob-m1-main .main-right {
+		padding-left: 3%;
+	}
+}
+
+.bymob-m1-main .main-right .bymob-m1-infolist ol {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+@media only screen and (min-width: 640px) {
+	.bymob-m1-main .main-right .bymob-m1-infolist ol {
+		padding-top: 0 !important;
+	}
+}
+
+
+/* message */
+
+.bymob-m1-message {
+	float: left;
+	display: block;
+	padding: 6%;
+	width: 100%;
+}
+
+.bymob-m1-message .title {
+	float: left;
+	display: block;
+	margin-bottom: 1.5rem;
+	width: 100%;
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 3.6rem;
+	text-align: center;
+}
+
+.bymob-m1-message .title span {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.8rem;
+	color: #AAA;
+}
+
+.bymob-m1-message form input,
+.bymob-m1-message form textarea {
+	padding: 0.6rem;
+	margin-bottom: 2%;
+	width: 100%;
+	border: 0.1rem solid #CCC;
+}
+
+.bymob-m1-message form button.message-btn {
+	margin: 5% 30% 10% 30%;
+	width: 40%;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	color: #FFF;
+	text-align: center;
+	background: #0358AD;
+}
+
+
+/* msglist */
+
+.bymob-m1-msglist {
+	float: left;
+	display: block;
+	width: 100%;
+	border-top: 0.8rem solid #67A7E6;
+}
+
+.bymob-m1-msglist ul {
+	float: left;
+	display: block;
+	padding: 3%;
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+}
+
+.bymob-m1-msglist ul li:not(:last-of-type) {
+	float: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+	border-bottom: 0.1rem dashed #67A7E6;
+}
+
+.bymob-m1-msglist ul li .title {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-msglist ul li .title h4 {
+	float: left;
+	display: block;
+	margin-bottom: 0;
+	width: 100%;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+}
+
+.bymob-m1-msglist ul li .title span {
+	float: left;
+	display: inline;
+	padding-right: 1rem;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	color: #AAA;
+}
+
+.bymob-m1-msglist ul li .detail {
+	float: left;
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+}
+
+
+/* recruitlist */
+
+.bymob-m1-recruitlist {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-recruitlist ul {
+	float: left;
+	display: block;
+	padding: 3%;
+	width: 100%;
+}
+
+.bymob-m1-recruitlist ul li {
+	float: left;
+	display: block;
+	padding: 1rem;
+	width: 100%;
+	background-color: #FFF;
+	-webkit-box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, .25);
+}
+
+.bymob-m1-recruitlist ul li:not(:first-of-type) {
+	margin-top: 3%;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-title,
+.bymob-m1-recruitlist ul li .recruitlist-tag,
+.bymob-m1-recruitlist ul li .recruitlist-summary {
+	float: left;
+	display: block;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-title {
+	float: left;
+	display: block;
+	width: 100%;
+	max-height: 4.5rem;
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 2.2rem;
+	letter-spacing: 0.05rem;
+	white-space: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-tag span {
+	float: left;
+	display: inline-block;
+	position: relative;
+	padding: 0 1rem 0.5rem 0;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	color: #888;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-tag span:not(:first-of-type) {
+	padding-left: 1rem;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-tag span:not(:first-of-type):not(.salary)::before {
+	float: left;
+	display: inline;
+	content: "";
+	position: relative;
+	top: 0.2rem;
+	left: -1rem;
+	width: 0.1rem;
+	height: 1.2rem;
+	background-color: #DDD;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-tag span.salary {
+	float: left;
+	display: block;
+	margin-top: 0.5rem;
+	padding: 0;
+	width: 100%;
+	font-size: 1.4rem;
+	color: #FF4040;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-tag span.salary strong {
+	margin-right: 0.2rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.05rem;
+}
+
+.bymob-m1-recruitlist ul li .recruitlist-summary p {
+	float: left;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	margin: 0;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: #888;
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+
+/* recruitlist-nobox */
+
+.recruitlist-nobox ul {
+	padding: 0;
+}
+
+.recruitlist-nobox ul li {
+	padding: 3%;
+	box-shadow: none !important;
+}
+
+.recruitlist-nobox ul li:not(:first-of-type) {
+	margin: 0;
+	border-top: 0.1rem dashed #F0F0F0;
+}
+
+
+/* recruitdetail */
+
+.bymob-m1-recruitdetail {
+	float: left;
+	display: block;
+	margin-bottom: 3%;
+	padding: 1rem 1.5rem;
+	width: 100%;
+	background-color: #FFF;
+}
+
+.bymob-m1-recruitdetail .title,
+.bymob-m1-recruitdetail .benefit,
+.bymob-m1-recruitdetail .tag,
+.bymob-m1-recruitdetail .company,
+.bymob-m1-recruitdetail .subtitle,
+.bymob-m1-recruitdetail .detail {
+	float: left;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+
+.bymob-m1-recruitdetail .benefit,
+.bymob-m1-recruitdetail .tag,
+.bymob-m1-recruitdetail .company {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 0.05rem dashed #F0F0F0;
+}
+
+.bymob-m1-recruitdetail .title {	
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+
+.bymob-m1-recruitdetail .title h2 {
+	float: left;
+	display: block;
+	margin-bottom: 1rem;
+	width: 100%;	
+}
+
+.bymob-m1-recruitdetail .title span.salary {
+	float: left;
+	display: block;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	font-size: 1.5rem;
+    color: #FF4040;
+}
+
+.bymob-m1-recruitdetail .title span.salary strong {
+	margin-right: 0.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+}
+
+.bymob-m1-recruitdetail .tag {
+	padding-bottom: 0.5rem;
+}
+
+.bymob-m1-recruitdetail .tag span {
+    float: left;
+    display: inline-block;
+    position: relative;
+    padding: 0 1rem 1rem 0;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #888;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bymob-m1-recruitdetail .tag span:not(:first-of-type) {
+	padding-left: 1rem;
+}
+
+.bymob-m1-recruitdetail .tag span:not(:first-of-type):not(.time)::before {
+	float: left;
+	display: inline;
+	content: "";
+	position: relative;
+	top: 0.2rem;
+	left: -1rem;
+	width: 0.1rem;
+	height: 1.2rem;
+	background-color: #DDD;
+}
+
+.bymob-m1-recruitdetail .tag span.time {
+	float: left;
+	display: none;
+	margin-top: 0.5rem;
+	padding: 0;
+	width: 100%;
+	color: #BBB;
+}
+
+.bymob-m1-recruitdetail .benefit {
+	padding-top: 0;
+	padding-bottom: 1.5rem;
+}
+
+.bymob-m1-recruitdetail .benefit font {
+	float: left;
+	display: inline-block;
+	padding: 0 1rem;
+	margin-right: 1.5rem;
+	font-size: 1.4rem;
+	line-height: 2.8rem;
+	color: #E60000;
+	border-radius: 0.3rem;
+	border: 0.05rem solid #E60000;
+}
+
+.bymob-m1-recruitdetail .company span {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+
+.bymob-m1-recruitdetail .company span:not(:last-of-type) {
+	margin-bottom: 0.5rem;
+}
+
+.bymob-m1-recruitdetail .company span font {
+	float: left;
+	display: block;
+	width: 24%;
+	color: #888;
+}
+
+.bymob-m1-recruitdetail .company span p {
+	float: right;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	margin: 0;
+	width: 76%;
+	font-size: 1.6rem;
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+.bymob-m1-recruitdetail .company span.contact a {
+	float: left;
+    display: inline-block;
+	margin-right: 1rem;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.bymob-m1-recruitdetail .subtitle {
+    float: left;
+    display: block;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.bymob-m1-recruitdetail .detail {
+	float: left;
+	display: block;
+	width: 100%;
+	font-size: 1.8rem;
+	line-height: 3rem;
+	letter-spacing: 0.05rem;
+	text-align: justify;
+}
+
+.bymob-m1-recruitdetail .detail p {
+	margin-bottom: 1.5rem;
+	/*text-indent: 2.8rem;*/
+}
+
+.bymob-m1-recruitdetail .detail p.imgP {
+	text-align: center;
+}
+
+.bymob-m1-recruitdetail .detail p.imgP img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+/* infodetail */
+
+.bymob-m1-infodetail {
+	float: left;
+	display: block;
+	margin-bottom: 3%;
+	padding: 1rem;
+	width: 100%;
+	background-color: #FFF;
+}
+
+.bymob-m1-infodetail .title {
+	float: left;
+	display: block;
+	padding: 1rem 0.5rem 0.5rem 1rem;
+	width: 100%;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 2.8rem;
+}
+
+.bymob-m1-infodetail .title span {
+	float: left;
+	display: block;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	font-size: 1.4rem;
+	color: #AAA;
+}
+
+.bymob-m1-infodetail .title span font.price {
+	padding-right: 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #EE0000;
+	letter-spacing: 0.05rem;
+}
+
+.bymob-m1-infodetail .photo {
+	float: left;
+	display: block;
+	margin: 0 auto;
+	padding: 1rem;
+	width: 100%;
+	text-align: center;
+}
+
+.bymob-m1-infodetail .photo img {
+	width: 100%;
+	max-width: 420px;
+}
+
+.bymob-m1-infodetail .content {
+	float: left;
+	display: block;
+	margin-top: 1rem;
+	padding: 1rem;
+	width: 100%;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	text-align: justify;
+}
+
+.bymob-m1-infodetail .content p {
+	text-indent: 2.8rem;
+}
+
+.bymob-m1-infodetail .content p.imgP {
+	text-align: center;
+}
+
+.bymob-m1-infodetail .content p.imgP img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+/* page */
+
+.bymob-m1-page {
+	float: left;
+	display: block;
+	padding: 1rem;
+	width: 100%;
+}
+
+.bymob-m1-page ul li a {
+	margin-top: 0.5rem;
+	font-size: 1.4rem;
+}
+
+
+/* footer */
+
+.bymob-m1-footer {
+	float: left;
+	display: block;
+	margin-bottom: 5rem;
+	padding: 1rem;
+	width: 100%;
+	font-family: "宋体", arial, sans-serif;
+	font-size: 1.2rem;
+	line-height: 2.4rem;
+	text-align: center;
+	border-top: 0.8rem solid #67A7E6;
+}
+
+.bymob-m1-footer .links {
+	float: left;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+
+.bymob-m1-footer .links a {
+	display: inline-block;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.bymob-m1-footer .tips {
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.bymob-m1-footer .tips strong {
+	display: block;
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+.bymob-m1-footer .tips strong font {
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	font-size: 2rem;
+	font-family: impact;
+	font-weight: 400;
+	color: #FF4040;
+}
+
+.bymob-m1-footer .tips a img {
+	margin: 1rem auto;
+	width: 120px;
+	height: 40px;
+}
+
+
+/* footbar */
+
+.bymob-m1-footbar {
+	/*display: block;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;*/
+	display: block;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 640px;
+	height: 4.5rem;
+	text-align: center;
+}
+
+.bymob-m1-footbar a.message {
+	float: left;
+	display: inline-block;
+	width: 30%;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 4.5rem;
+	letter-spacing: 0.1rem;
+	color: #FFF !important;
+	background-color: #D50000;
+}
+
+.bymob-m1-footbar a.call {
+	float: left;
+	display: inline-block;
+	width: 70%;
+	font-size: 2.2rem;
+	font-weight: 500;
+	line-height: 4.5rem;
+	letter-spacing: 0.1rem;
+	color: #FFF !important;
+	background-color: #413686;
+}
+
+.bymob-m1-footbar a.call font {
+	padding-right: 1rem;
+	font-size: 1.8rem;
+}
+
+
+/* gotop */
+
+.bymob-m1-gotop {
+	position: fixed;
+	bottom: 6rem !important;
+}
+
+.bymob-m1-gotop .am-gotop-icon {
+	color: #FFF;
+	background-color: #0358AD;
+}
